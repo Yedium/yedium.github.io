@@ -1,0 +1,31 @@
+{
+  "name": "yedium.github.io",
+  "version": "1.0.0",
+  "description": "yedium.github.io.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot",
+    "lint": "eslint src",
+    "dev": "webpack -w --config webpack.config.babel.js",
+    "flow": "flow status"
+  },
+  "author": "Yedium",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.13.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
+    "sourcemap": "^0.1.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

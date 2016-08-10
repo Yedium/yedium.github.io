@@ -1,0 +1,8 @@
+/* hello */ 
+@import "./hello.scss";
+.hello {
+    transition: all .3s;
+    .world {
+        box-sizing: border-box;
+    }
+}
